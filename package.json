@@ -4,7 +4,7 @@
   "description": "Primer proyecto de NODE para practicas",
   "main": "index.js",
   "scripts": {
-    "serve": "nodemon index.js"
+    "serve": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "",
