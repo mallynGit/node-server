@@ -1,8 +1,12 @@
-const mensaje = 'Modulo exportado'
+const mensaje = "Modulo exportado";
+const EventEmitter = require("events");
 
-function enviar(msg){
-    console.log(mensaje)
+
+class Modulo extends EventEmitter {
+  enviar(msg) {
+    console.log(msg);
+     this.emit("mandado");
+  }
 }
 
-module.exports.enviar = enviar
-module.exports.moduloMsg = mensaje
+module.exports = Modulo;
