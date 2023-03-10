@@ -1,13 +1,20 @@
-contrase;a baul de secretos
+contrase;a baul de secretos -- REVISAR
+no he buscado a fondo
 
-manejar errores mas globalmente
+manejar errores mas globalmente -- HACER
+no tengo ni idea de como manejar los errores que me pueda dar express e implementarlos dentro del controlador
 
-controladores con metodos generales, /api/pokemon/getAll o /get, /api/master/getAll
+controladores con metodos generales, /api/pokemon/getAll o /get, /api/master/getAll -- HECHO
+ahora se puede usar como plantilla el controlador de pokemon
 
-autoincrement
+autoincrement -- HECHO
+create table pokeindex (id int IDENTITY(1,1) PRIMARY KEY, pokeName nvarchar(50) NOT NULL)
 
-nodejs mssql schema ver y comparar
+nodejs mssql schema ver y comparar -- REVISAR
+no hay muchos schemas de MS SQL, solo de MYSQL
 
-validar solo al guardar o modificar
+validar solo al guardar o modificar -- HECHO
+primero comprueba que existen pokename e id, y luego valida
 
-sql vlaidar nulo
+sql vlaidar nulo -- REVISAR
+no me acuerdo lo que me dijo samuel sinceramente
