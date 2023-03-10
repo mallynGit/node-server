@@ -16,8 +16,7 @@ http.createServer(app).listen(80, () => {
 
 https.createServer(cfg.options, app).listen(443, () => {
   console.log("Servidor HTTPS abierto en el puerto 443");
-  db.createTable('backrooms')
-
+  db.createTable('samuel')
 });
 
 // Loguea en la consola cada vez que se recibe una conexion

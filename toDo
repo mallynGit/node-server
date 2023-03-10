@@ -1,0 +1,13 @@
+contrase;a baul de secretos
+
+manejar errores mas globalmente
+
+controladores con metodos generales, /api/pokemon/getAll o /get, /api/master/getAll
+
+autoincrement
+
+nodejs mssql schema ver y comparar
+
+validar solo al guardar o modificar
+
+sql vlaidar nulo
